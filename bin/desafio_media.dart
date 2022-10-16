@@ -46,13 +46,13 @@ void main() {
       print("Que ótimo! Vamos lá então! Qual sua nota do 1ºBimestre?");
       String? notaPrimeiroBi = stdin.readLineSync();
 
-      print("Que ótimo! Vamos lá então! Qual sua nota do 2ºBimestre?");
+      print("Certo. E qual sua nota do 2ºBimestre?");
       String? notaSegundoBi = stdin.readLineSync();
 
-      print("Que ótimo! Vamos lá então! Qual sua nota do 3ºBimestre?");
+      print("Ok. E a do 3ºBimestre?");
       String? notaTerceiroBi = stdin.readLineSync();
 
-      print("Que ótimo! Vamos lá então! Qual sua nota do 4ºBimestre?");
+      print("Pra finalizar, qual foi a do 4ºBimestre?");
       String? notaQuartoBi = stdin.readLineSync();
 
       if (notaPrimeiroBi != null && notaSegundoBi != null && notaTerceiroBi != null && notaQuartoBi != null && nomeAluno != null && idadeAluno != null && naturalidadeAluno != null && nomeEscolaAluno != null) {
